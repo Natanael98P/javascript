@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    height: 100vh;
+    background-image: url(https://img.freepik.com/fotos-gratis/close-up-de-em-branco-antigas-parede-concreta_23-2147856094.jpg?w=2000);
+
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    align-items: center;
+}
+
+.countdown{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 500px));
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+.countdown li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 1rem;
+    color: rgba(200, 198, 198, 0.778);
+    background-color: #1e1e1eb3;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.4);
+    text-align: center;
+}
+.countdown li span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 8rem;
+}
