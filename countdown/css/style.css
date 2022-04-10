@@ -6,6 +6,19 @@
 li{
     list-style: none;
 }
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 1rem;
+    color: rgba(200, 198, 198, 0.778);
+    background-image: linear-gradient(to bottom, #c8c6c6c6, black);
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.4);
+    text-align: center;
+    width: 400px;
+    background-position: center;
+    margin: auto;
+}
 
 body{
     height: 100vh;
@@ -29,7 +42,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     padding: 1rem;
-    color: rgba(200, 198, 198, 0.778);
+    color: #c8c6c6c6;
     background-color: #1e1e1eb3;
     border-radius: 5px;
     box-shadow: 0 2px 2px rgba(0,0,0,0.4);
