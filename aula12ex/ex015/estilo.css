@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(76, 134, 220);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.297);
+}
+section img{
+    width: 300px;
+
+}
+footer{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    padding: 20px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+
+}
+footer a:hover{
+    color: black;
+    font-style: italic;
+}
